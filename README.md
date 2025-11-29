@@ -11,12 +11,12 @@ This project performs a comprehensive predictive analysis of the Nifty 50 stock 
 ```
 ├── data/                   # Dataset (Nifty 50 Historical Data)
 ├── notebooks/              # Jupyter Notebooks for analysis
-│   ├── 01_Data_Prep_EDA.ipynb
-│   ├── 02_Regression_Price.ipynb
-│   ├── 03_Classification_Signal.ipynb
-│   ├── 04_Clustering_Risk.ipynb
-│   ├── 05_Deep_Learning_LSTM.ipynb
-│   └── 06_Evaluation.ipynb
+│   ├── Data_Preparation_EDA.ipynb
+│   ├── Regression_Price_Prediction.ipynb
+│   ├── Classification_Signal_Prediction.ipynb
+│   ├── Clustering_Risk_Segmentation.ipynb
+│   ├── Deep_Learning_LSTM_Forecasting.ipynb
+│   └── Model_Evaluation.ipynb
 ├── reports/                # Project Report and Presentation
 │   ├── project_report.md
 │   ├── presentation.md
@@ -40,14 +40,14 @@ This project performs a comprehensive predictive analysis of the Nifty 50 stock 
 
 3.  **Running the Analysis:**
     *   Navigate to the `notebooks/` directory.
-    *   Open and run the notebooks in numerical order (01 to 06).
+    *   Open and run the notebooks in logical order (Data Prep -> Regression -> Classification -> etc.).
 
 ## Objectives Covered
-*   **Unit I:** Data Preparation & EDA
-*   **Unit II:** Regression Analysis (Price Prediction)
-*   **Unit III:** Classification (Buy/Sell Signals)
-*   **Unit IV:** Clustering (Risk Segmentation)
-*   **Unit V & VI:** Deep Learning (LSTM) & Model Evaluation
+*   **Data Preparation & EDA:** Trend Analysis.
+*   **Regression Analysis:** Price Prediction.
+*   **Classification:** Buy/Sell Signals (SVM, Naive Bayes).
+*   **Clustering:** Risk Segmentation.
+*   **Deep Learning:** LSTM Time-Series Forecasting.
 
 ## Author
 [Your Name/ID]
