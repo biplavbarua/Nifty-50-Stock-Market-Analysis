@@ -5,11 +5,11 @@ This project applies advanced Predictive Analytics techniques to historical Nift
 
 ## 2. Objectives
 As per the INT234 syllabus, this project addresses the following key objectives:
-1.  **Financial Data Preprocessing (Unit I):** To transform raw OHLC data into a clean, analytical format suitable for modeling.
-2.  **Price Prediction via Regression (Unit II):** To accurately forecast the next day's closing price using historical price and volume data.
-3.  **Market Trend Classification (Unit III):** To classify market movements into binary "Buy" or "Sell" signals based on technical momentum indicators.
-4.  **Stock Volatility Clustering (Unit IV):** To segment market periods or stocks into distinct risk profiles (e.g., High Volatility vs. Stable) for portfolio management.
-5.  **Time Series Forecasting with Deep Learning (Unit V & VI):** To leverage Long Short-Term Memory (LSTM) networks for capturing complex, non-linear temporal dependencies in stock prices.
+1.  **Financial Data Preprocessing:** To transform raw OHLC data into a clean, analytical format suitable for modeling.
+2.  **Price Prediction via Regression:** To accurately forecast the next day's closing price using historical price and volume data.
+3.  **Market Trend Classification:** To classify market movements into binary "Buy" or "Sell" signals based on technical momentum indicators.
+4.  **Stock Volatility Clustering:** To segment market periods or stocks into distinct risk profiles (e.g., High Volatility vs. Stable) for portfolio management.
+5.  **Time Series Forecasting with Deep Learning:** To leverage Long Short-Term Memory (LSTM) networks for capturing complex, non-linear temporal dependencies in stock prices.
 
 ## 3. Methodology & Analysis
 

@@ -11,11 +11,11 @@
 ---
 
 ## 2. Objectives
-*   **Unit I:** Data Cleaning & EDA (Trend Analysis).
-*   **Unit II:** Price Prediction (Regression).
-*   **Unit III:** Buy/Sell Signal Classification (SVM).
-*   **Unit IV:** Risk Segmentation (Clustering).
-*   **Unit V:** Time Series Forecasting (LSTM).
+*   **Data Cleaning & EDA:** Trend Analysis.
+*   **Price Prediction:** Regression Analysis.
+*   **Buy/Sell Signal Classification:** SVM & Naive Bayes.
+*   **Risk Segmentation:** Clustering Analysis.
+*   **Time Series Forecasting:** LSTM Deep Learning.
 
 ---
 
