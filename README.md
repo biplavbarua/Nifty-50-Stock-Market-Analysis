@@ -51,4 +51,4 @@ This project performs a comprehensive predictive analysis of the Nifty 50 stock 
 *   **Deep Learning:** LSTM Time-Series Forecasting.
 
 ## Author
-[Your Name/ID]
+Biplav Barua

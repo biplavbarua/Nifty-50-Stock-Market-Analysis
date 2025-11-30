@@ -1,0 +1,18 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data
+data/
+!data/.gitkeep
+
+# Personal Scripts (Not for Repo)
+src/check_environment.py
+reports/presentation_script.md
