@@ -31,6 +31,12 @@ try:
 except ImportError:
     print("❌ tensorflow is MISSING. (This is expected if you are not using the .venv kernel)")
 
+try:
+    import statsmodels.api as sm
+    print("✅ statsmodels (for ARIMA) is installed.")
+except ImportError:
+    print("❌ statsmodels is MISSING.")
+
 print("\n--- Diagnosis ---")
 if ".venv" in sys.executable:
     print("✅ GREAT! You are using the correct virtual environment (.venv).")

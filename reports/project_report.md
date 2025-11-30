@@ -17,7 +17,8 @@ As per the INT234 syllabus, this project addresses the following key objectives:
 *   **Data Source:** Historical Nifty 50 Index Data (2000-2025).
     *   **Source URL:** [Yahoo Finance - Nifty 50 (^NSEI)](https://finance.yahoo.com/quote/%5ENSEI/history)
     *   **Methodology:** Following the "Real-Time API" approach (as seen in recent technical tutorials), we programmatically download the data using the `yfinance` library. This ensures the dataset is not static but always contains the latest market data up to the current date.
-    *   **Dataset File:** `data/nifty50_2000_2025.csv` (Freshly updated).
+    *   **File:** `data/nifty50_2000_2025_11_30.csv` (Updated: Nov 30, 2025)
+    *   **Period:** Jan 1, 2000 - Dec 1, 2025
 *   **Analysis:** We visualized the long-term upward trend of the Nifty 50 index. Daily returns analysis revealed a normal distribution centered around zero but with significant "fat tails" indicating market crashes (volatility shocks).
 
 ### Regression Analysis

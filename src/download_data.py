@@ -8,13 +8,13 @@ def download_nifty_data():
     
     # Nifty 50 Ticker Symbol on Yahoo Finance is ^NSEI
     ticker = "^NSEI"
-    print(f"Downloading data for {ticker} from 2000-01-01 to 2025-12-31...")
+    print(f"Downloading data for {ticker} from 2000-01-01 to 2025-12-01...")
     
-    data = yf.download(ticker, start="2000-01-01", end="2025-12-31")
+    data = yf.download(ticker, start="2000-01-01", end="2025-12-01")
     
     if not data.empty:
         # Save to CSV
-        file_path = 'data/nifty50_2000_2025.csv'
+        file_path = 'data/nifty50_2000_2025_11_30.csv'
         data.to_csv(file_path)
         print(f"Successfully saved data to {file_path}")
         print(f"Shape: {data.shape}")

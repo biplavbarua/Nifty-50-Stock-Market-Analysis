@@ -3,9 +3,9 @@
 ## Overview
 This project performs a comprehensive predictive analysis of the Nifty 50 stock market index using historical data from 2000 to 2025. It covers all units of the INT234 syllabus, including Regression, Classification, Clustering, and Deep Learning (LSTM).
 
-**Data Source:** [Yahoo Finance (^NSEI)](https://finance.yahoo.com/quote/%5ENSEI/history)
-*   **Latest Update:** The dataset is fetched in real-time using the `yfinance` API (similar to modern algorithmic trading setups).
-*   **File:** `data/nifty50_2000_2025.csv` (Contains data up to the moment of execution).
+*   **Data Source:** Yahoo Finance (Real-time data via `yfinance` API)
+*   **Dataset:** `data/nifty50_2000_2025_11_30.csv` (Updated: Nov 30, 2025)
+*   **Period:** Jan 1, 2000 - Dec 1, 2025
 
 ## Project Structure
 ```
@@ -16,6 +16,7 @@ This project performs a comprehensive predictive analysis of the Nifty 50 stock 
 │   ├── Classification_Signal_Prediction.ipynb
 │   ├── Clustering_Risk_Segmentation.ipynb
 │   ├── Deep_Learning_LSTM_Forecasting.ipynb
+│   ├── Time_Series_Forecasting_ARIMA.ipynb  # Statistical Baseline (The "Genius" Addition)
 │   └── Model_Evaluation.ipynb
 ├── reports/                # Project Report and Presentation
 │   ├── project_report.md
