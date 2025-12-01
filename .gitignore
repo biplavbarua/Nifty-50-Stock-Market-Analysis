@@ -16,3 +16,6 @@ data/
 # Personal Scripts (Not for Repo)
 src/check_environment.py
 reports/presentation_script.md
+
+# Personal Guides (Not for repo)
+reports/final_submission_guide.md

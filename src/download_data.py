@@ -1,6 +1,7 @@
 import yfinance as yf
 import pandas as pd
 import os
+from datetime import datetime
 
 def download_nifty_data():
     if not os.path.exists('data'):
@@ -8,9 +9,10 @@ def download_nifty_data():
     
     # Nifty 50 Ticker Symbol on Yahoo Finance is ^NSEI
     ticker = "^NSEI"
-    print(f"Downloading data for {ticker} from 2000-01-01 to 2025-12-01...")
+    end_date = datetime.today().strftime('%Y-%m-%d')
+    print(f"Downloading data for {ticker} from 2000-01-01 to {end_date}...")
     
-    data = yf.download(ticker, start="2000-01-01", end="2025-12-01")
+    data = yf.download(ticker, start="2000-01-01", end=end_date)
     
     if not data.empty:
         # Save to CSV
