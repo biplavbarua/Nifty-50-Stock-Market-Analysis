@@ -31,6 +31,13 @@ This project performs a deep dive into 25 years of historical stock market data 
 
 ## 📈 Visuals & Insights
 *(Run the notebooks to generate these interactive visualizations)*
+![Screenshot 2025-12-01 at 1 18 08 PM](https://github.com/user-attachments/assets/e41dd2fa-2910-409f-815a-0ab7b0edb6c4)
+<img width="859" height="547" alt="scatter-plot" src="https://github.com/user-attachments/assets/8f310a0d-fe51-408d-81a1-9179e98e9688" />
+<img width="1163" height="605" alt="Prediction" src="https://github.com/user-attachments/assets/d7bc0244-a2e9-421d-8258-c0ccaf396fcc" />
+<img width="841" height="547" alt="output" src="https://github.com/user-attachments/assets/9e0016c2-4e46-41f0-ab5a-0e9c3ffbe2f1" />
+<img width="1333" height="701" alt="LSTM" src="https://github.com/user-attachments/assets/d114cf7a-68f8-41f7-84dc-55f4324e597c" />
+<img width="1178" height="624" alt="ARIMA" src="https://github.com/user-attachments/assets/948068ca-d9b6-4313-a9c0-49d067de7d9d" />
+
 
 ### 1. The "Genius" Comparison (ARIMA vs. LSTM)
 While ARIMA struggles with sudden volatility, the LSTM model successfully captures non-linear patterns and rapid market recoveries, demonstrating the superiority of Neural Networks for financial time-series.
